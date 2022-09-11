@@ -13,7 +13,7 @@ namespace Lesson10
         string genreBook;
     }
 
-    class IDBook
+    class IDBook//name of class it would be better to do not start from I. now it looks as interface
     {
         long idBook;
     }
@@ -22,7 +22,7 @@ namespace Lesson10
     {
         public enum statusBook
         {
-            знаходиться_у_бібліотеці = 1,
+            знаходиться_у_бібліотеці = 1,//enum values should be in english
             скоро_зявиться_у_бібліотеці,
             видано_на_руки,
             пошкоджено,
@@ -34,7 +34,7 @@ namespace Lesson10
     {
         public enum statusBook
         {
-            відмінно = 5,
+            відмінно = 5,//enum values should be in english
             добре = 4,
             задовільно = 3,
             незадовільно = 2,
